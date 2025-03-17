@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  background: var(--primary-bg);
+  padding-bottom: 6rem;
+}
+
+.header {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: var(--scanner-dark);
+  text-align: center;
+}
+
+.main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 6rem;
+}
