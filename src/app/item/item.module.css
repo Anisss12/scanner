@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  background: var(--secondary-bg);
+  padding: 2vh;
+  list-style: none;
+  width: 100vw;
+  position: relative;
+}
+.container ul li {
+  list-style: none;
+  width: 20%;
+}
+
+.container ul {
+  display: flex;
+  width: 100%;
+  color: red;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vh;
+  top: 0vh;
+  position: fixed;
+  left: 0vh;
+  background: var(--primary-bg);
+}
+.sizes,
+.colors,
+.design,
+.price,
+.dateTime {
+  flex-direction: column;
+}
+
+.sizes li,
+.colors li,
+.design li,
+.price li,
+.dateTime li {
+  color: white;
+}
+
+.item {
+  border: 1px solid var(--border-color);
+  background: var(--primary-bg);
+  padding: 1vh;
+}
